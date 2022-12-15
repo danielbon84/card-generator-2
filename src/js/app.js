@@ -43,6 +43,7 @@ function render(variables = {}) {
   if (variables.country == null) {
     variables.country = "";
   }
+  
   //cover = "<div class='c'></div>";
   // reset the website body with the new html output
   document.querySelector("#widget_content").innerHTML = `<div class="widget">
